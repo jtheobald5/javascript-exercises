@@ -6,7 +6,7 @@ const findTheOldest = function(array) {
         age = (array[i].yearOfDeath - array[i].yearOfBirth);
         if (age > oldest) {
             oldest = age;
-            oldestName = array[i].name
+            oldestName = array[i].name;
         }
     }
     return oldestName;
